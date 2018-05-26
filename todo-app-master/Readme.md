@@ -11,29 +11,28 @@
 
 **1. Construire et exécuter l'application backend en utilisant maven **
 
-`` `bash
+```bash
 cd spring-boot-backend
-paquet mvn
-java -jar target / todoapp-1.0.0.jar
-`` `
+mvn package
+java -jar target/todoapp-1.0.0.jar
+```
 
 Alternativement, vous pouvez exécuter l'application sans l'empaqueter en utilisant -
 
-`` `bash
-mvn spring-boot: courir
-`` `
+```bash
+mvn spring-boot:run
+```
 
 Le serveur principal démarrera à <http: // localhost: 8080>.
 
 ** 2. Exécutez l'application frontend en utilisant npm **
+```bash
+cd angular-frontend
+npm install
+```
 
-`` `bash
-cd angulaire-frontend
-npm installer
-`` `
-
-`` `bash
-début npm
-`` `
+```bash
+npm start
+```
 
 Le serveur frontal s'exécutera sur <http: // localhost: 4200>
