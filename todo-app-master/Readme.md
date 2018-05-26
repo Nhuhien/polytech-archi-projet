@@ -1,6 +1,4 @@
-
-
-## Requirements
+## Exigences
 
 1. Java - 1.8.x
 
@@ -8,34 +6,34 @@
 
 3. MongoDB - 3.x.x
 
-## Steps to Setup
+## Étapes à suivre pour l'installation
 
 
-**1. Build and run the backend app using maven**
+**1. Construire et exécuter l'application backend en utilisant maven **
 
-```bash
+`` `bash
 cd spring-boot-backend
-mvn package
-java -jar target/todoapp-1.0.0.jar
-```
+paquet mvn
+java -jar target / todoapp-1.0.0.jar
+`` `
 
-Alternatively, you can run the app without packaging it using -
+Alternativement, vous pouvez exécuter l'application sans l'empaqueter en utilisant -
 
-```bash
-mvn spring-boot:run
-```
+`` `bash
+mvn spring-boot: courir
+`` `
 
-The backend server will start at <http://localhost:8080>.
+Le serveur principal démarrera à <http: // localhost: 8080>.
 
-**2. Run the frontend app using npm**
+** 2. Exécutez l'application frontend en utilisant npm **
 
-```bash
-cd angular-frontend
-npm install
-```
+`` `bash
+cd angulaire-frontend
+npm installer
+`` `
 
-```bash
-npm start
-```
+`` `bash
+début npm
+`` `
 
-Frontend server will run on <http://localhost:4200>
+Le serveur frontal s'exécutera sur <http: // localhost: 4200>
